@@ -35,14 +35,16 @@
 <p>Válaszd ki a kedvenc márkád:</p>
 
 <form action="/action_page.php">
-<label for="márkák">Kedvenc márkám:</label>
-<select id="márkák" name="márkák>
-  <option value="nike">Nike</option>
-  <option value="jordan">Jordan</option>
-</select>
-<input type="submit">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Nike">
+    <option value="Jordan">
+    <option value="Trapstar">
+    <option value="Adidas">
+  </datalist>
+  <input type="submit">
 </form>
-
+    
 <br>
 
 <p>Állítsd be a szűletési dátumodat:</p>
